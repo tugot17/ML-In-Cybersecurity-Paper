@@ -5,7 +5,7 @@ This document is summary of my presentation about Real and Stealthy Attacks on S
 <img src="Images/eyeglasses-attack.png" alt="drawing" width="500px"/>
 
 ## Paper
-Compiled pdf version of paper is [Seminar_ML_in_It_Security.pdf](Seminar_ML_in_It_Security.pdf)
+Compiled pdf version of paper: [Seminar_ML_in_It_Security.pdf](Seminar_ML_in_It_Security.pdf)
 
 ## Main tex file
 Main LaTeX File: [00.tex](00.tex
