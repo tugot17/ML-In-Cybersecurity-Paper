@@ -1,0 +1,11 @@
+Deep Face Recognition [6] was a state of the art FRS in 2016 and was also a base system that the authors of a paper decided to attack. It was trained on the set of 2622 actors and actresses, with roughly 1000 images per celebrity. In total of about 2.6M of train images. Although it have used significantly less training images then its competitors (for comparison Google has used 200M to train their FRS, Facebook has used 4.4M) their NN still achieves 98.95\% accuracy (which is comparable to Google and Facebook solutions)[6].
+
+The architecture of Deep Face Recognition was inspired by [12] and consisted of long sequence of convolutional layers. All the convolution layers are followed by a one or more non-linearities such as ReLU activation  function or max poling layer.
+
+In order to test attack accuracy Sharif et al. used 3 different Neural Networks:
+
+DNN A - original Face Recognition System used in the Deep Face Recognition paper. 2622 classes, only actors no researchers in dataset.
+
+DNN B - 10 classes. 5 Researchers and 5 actors from PubFig dataset[7]. DNN was trained with transfer learning technique, only last layer was changed (from 2622 classes to 10) and retrained. 
+
+DNN C - 143 classes. 140 actors from PubFig dataset and 3 researchers. DNN was trained with transfer learning technique, only last layer was changed (from 2622 classes to 143) and retrained.
