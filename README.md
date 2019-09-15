@@ -8,7 +8,7 @@ This document is summary of my presentation about Real and Stealthy Attacks on S
 Compiled pdf version of paper: [Seminar_ML_in_It_Security.pdf](Seminar_ML_in_It_Security.pdf)
 
 ## Main tex file
-Main LaTeX File: [00.tex](00.tex
+Main LaTeX File: [00.tex](00.tex)
 
 ## Template
 Used LaTeX template: [template_ausarbeitung.tex](template_ausarbeitung.tex)
